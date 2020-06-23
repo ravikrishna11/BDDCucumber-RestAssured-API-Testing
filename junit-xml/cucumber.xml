@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="11.870802">
+<testcase classname="Library Management" name="Creating Books Information" time="9.201785">
+<system-out><![CDATA[Given Create Book entry with "Maths","1","1","Rapo","ram","numbers","199","150".passed
+Then Get books details using Book Id........................................passed
+Then Get books details by PublisherId.......................................passed
+Then Get books deatails by authorId.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Library Management" name="Creating the Publisher" time="0.746523">
+<system-out><![CDATA[Given Create the post method for publisher "publisherone","Bangalore","India".passed
+Then Delete the publisher by using publisherId..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Library Management" name="Creating the Author" time="0.554765">
+<system-out><![CDATA[Given Creating the author "authorone","Hyderabad","India"...................passed
+Then Delete the author by authorId..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Library Management" name="Create Customer and Booking" time="1.367729">
+<system-out><![CDATA[Then Create the customer "sachin","mumbai","india"..........................passed
+Then Create the booking.....................................................passed
+Then Create the SaveBooking.................................................passed
+Then Create the saveBilling "Hyderabd","100","1234","Telangana".............passed
+Then Verify number of books hold by customer................................passed
+]]></system-out>
+</testcase>
+</testsuite>
